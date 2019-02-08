@@ -1,4 +1,4 @@
-// import ResponsiveBackgroundImage
+// import srcsetBackgroundImage
 const srcsetBackgroundImage = require('srcsetBackgroundImage');
 
 // variable - select all containing divs with corresponding class
