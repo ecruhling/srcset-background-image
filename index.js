@@ -5,6 +5,6 @@ const srcsetBackgroundImage = require('srcsetBackgroundImage');
 const $srcsetBackgroundImages = $('.srcset-background-image');
 
 // replace background with screen appropriate image extracted from image with srcset attribute
-for (let i = 0; i < $elements.length; i++) {
-  new srcsetBackgroundImage($elements[i]);
+for (let i = 0; i < $srcsetBackgroundImages.length; i++) {
+  new srcsetBackgroundImage($srcsetBackgroundImages[i]);
 }
